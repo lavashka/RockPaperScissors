@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="container">
+    <a href="indexMain.html" class="close-btn">Go To Main Page</a>
+    <div class="score">
+      
+      <div class="scores">
+       
+        <p><span class="userWin">0</span></p>
+        <div class="total-score">
+          <p>Wins: <span class="userWinTotal">0</span></p>
+          <p>Loses: <span class="computerWinTotal">0</span></p>
+        </div>
+        <p><span class="computerWin">0</span></p>
+      </div>
+    </div>
+
+    <img id="playerHand" src="images/r.png" alt="Rock Image">
+    <img id="computerHand" src="images/r.png" alt="Rock Image">
+
+    <div class="options">
+      <button class="button-82-pushable" role="button" class="btn" data-choice="r">
+        <span class="button-82-shadow"></span>
+        <span class="button-82-edge"></span>
+        <span class="button-82-front text">
+          Rock
+        </span>
+      </button>
+      <button class="button-82-pushable" role="button" class="btn" data-choice="p">
+        <span class="button-82-shadow"></span>
+        <span class="button-82-edge"></span>
+        <span class="button-82-front text">
+          Paper
+        </span>
+      </button>
+      <button class="button-82-pushable" role="button" data-choice="s">
+        <span class="button-82-shadow"></span>
+        <span class="button-82-edge"></span>
+        <span class="button-82-front text">
+          Scissors
+        </span>
+      </button>
+    </div>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
